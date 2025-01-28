@@ -1,0 +1,11 @@
+# Conteúdo das aulas de HTML e CSS
+##
+
+### Tipos de folhas de estilo:
+1. Interno
+    No arquivo html, dentro da tag <style></style>
+2. Inline
+    No arquivo html, como atributo do elemento, pouco utilizado pois polui o código
+3. Externo 
+    Em um arquivo separado, .css, dedicado somente a estilização, como este arquivo.
+    Necessário referenciar este arquivo no arquivo index.html
