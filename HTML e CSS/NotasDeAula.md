@@ -46,3 +46,22 @@ Outras propriedades não são herdáveis por padrão, o que significa que seus v
 - `width`
 - `display`
 
+
+### Propriedades de Flexbox
+
+- `display: flex;` -> transofrma um elemento em um container flexível, permitindo posicionamento e alinhamento flexível dos elementos filhos.
+- `flex-direction: row;` -> Define o sentido do eixo principal, sendo "row" a disposição em linha (Inline), e o "colum" a disposição em coluna. 
+- `flex-direction: row-reverse;` -> inverte a ordem do eixo principal na flex-box.
+- `justify-content: center;` -> ajusta os itens dentro do container, neste caso no centro, podendo ser no final(flex-end) e no início(flex-start). Também há propriedades de disposição dos itens ao longo da div, com o space-around, space-evenly, space-between.
+- `align-items: center` -> alinha os itens no eixo secundário.
+- `flex-wrap: wrap` -> quebra de linha para todos os elementos caberem no container.
+- `overflow: auto;` -> adiciona um scroll no container.
+- `align-content: center;` -> costumizar diposição dos itens quando há uma quebra de linha.
+    #### Propriedades dos itens filhos da div flex
+    - `align-self: flex-end;` -> alinha para um único item do container.
+    - `order: -1;` -> reorganizar a disposição dos itens do container.
+    - `flex-grow: ` -> manipular o quanto um elemento deve crescer.
+    - `flex-shrink: ` -> determinar se um elemento pode ou não modificar seu tamanho conforme diminuimos a tela web.
+    - `flex-basis: ` -> seta um valor padrão para um elemento.
+    - `flex: 1 0 500px;` -> condensa o flex-grow, flex-shrink e flex-basis em uma mesma propriedade, respectivamente.
+    - `flex-flow: row wrap;` -> condesa as propriedades flex-direction e flex-wrap em uma só linha, respectivamente.

@@ -1,9 +1,45 @@
-/* Tipos de folhas de estilo:
-1. Interno
-    No arquivo html, dentro da tag <style></style>
-2. Inline
-    No arquivo html, como atributo do elemento, pouco utilizado pois polui o código
-3. Externo 
-    Em um arquivo separado, .css, dedicado somente a estilização, como este arquivo.
-    Necessário referenciar este arquivo no arquivo index.html
-*/
+.fotoLais{
+    height: 140px;
+    border-radius: 700px;
+    border: #B16E5C solid 5px;
+}
+
+.iconCafe{
+    height: 40px;
+    padding: 10px 20px;
+}
+
+.tituloPrincipal{
+    font-family: "Poppins", serif;
+    font-size: 50px;
+    font-weight: 250;
+    letter-spacing: 7px;
+}
+
+#laisRabello{
+    height: 400px;
+    background-image: url("assets/photos/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    background-color: #ffc15d;
+    height: 60px;
+}
+
+ul {
+    float: right;
+    padding-right: 20px;
+}
+
+li {
+    display: inline-block;
+    padding-inline: 10px;
+}
+
+a {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 390;
+}
